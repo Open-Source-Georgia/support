@@ -1,0 +1,20 @@
+name: Invite me to the organization
+description: Request an invitation to the Open Source Georgia GitHub organization
+title: "Please invite me to the GitHub organization"
+body:
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub username
+      placeholder: octocat
+    validations:
+      required: true
+  - type: input
+    id: discord-username
+    attributes:
+      label: Discord username (optional)
+  - type: textarea
+    id: about
+    attributes:
+      label: Tell us a bit about yourself
+      description: What are you interested in? What would you like to learn or build?
